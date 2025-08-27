@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>scheduling appliction</title>
+</head>
+<body>
+
+  <div class="Container">
+    <div class="subcontainer">
+      <h1>App Management</h1>
+      <div class="input-group">
+        <input type="text" id="input-task" placeholder="Enter task">
+        <input type="text" id="categoryinput" placeholder="Enter Category">
+        <button onclick="creatTask()">Create Task</button>
+        <button onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <div class="sub">
+      <div class="sub1">
+        <h2>Display Task</h2>
+        <div class="task-list">
+          <div class="input-group">
+            <input type="text" id="outputBox" readonly>
+            <div class="button-group">
+              <button class="delete-btn">Delete</button>
+              <button class="edit-btn">Edit</button>
+            </div>
+          </div>
+          <div class="input-group">
+            <input type="text" id="outputBox" readonly>
+            <div class="button-group">
+              <button class="delete-btn">Delete</button>
+              <button class="edit-btn">Edit</button>
+            </div>
+          </div>
+          <div class="input-group">
+            <input type="text" id="outputBox" readonly>
+            <div class="button-group">
+              <button class="delete-btn">Delete</button>
+              <button class="edit-btn">Edit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub2">
+        <h3>Task Completed</h3>
+        <div class="button-group">
+          <button class="complete-btn">Done</button>
+        </div>
+        <div class="completed-list"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
+ <!-- <div class="container">
+    <h2>📅 Scheduler App</h2>
+    
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <input type="date" id="dateInput">
+    <input type="text" id="categoryInput" placeholder="Enter category">
+    <button onclick="addTask()">Add Task</button>
+
+    <h3>🔍 View/Search</h3>
+    <input type="date" id="viewDateInput">
+    <button onclick="viewByDate()">View by Date</button>
+    <input type="text" id="viewCategoryInput" placeholder="Enter category">
+    <button onclick="viewByCategory()">View by Category</button>
+    <input type="text" id="searchInput" placeholder="Search task">
+    <button onclick="searchTask()">Search</button> -->
